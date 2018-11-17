@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace EVaporate
+namespace EVaporate.Pages
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Game.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Game : Page
     {
-        public MainWindow()
+        public Game()
         {
             InitializeComponent();
         }
