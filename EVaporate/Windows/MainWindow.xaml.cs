@@ -23,5 +23,10 @@ namespace EVaporate.Pages
         {
             InitializeComponent();
         }
+
+        private void btn_Account_Copy_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

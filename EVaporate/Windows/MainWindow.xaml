@@ -7,6 +7,79 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid HorizontalAlignment="Left" Height="420" VerticalAlignment="Top" Width="110" Background="#FFC3073F">
+            <!--style line's code makes it so that the border on the buttons is not visible-->
+            <Button x:Name="btn_Home" 
+                    Content="Home" 
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Top" 
+                    Width="110" 
+                    RenderTransformOrigin="0.08,1.545" 
+                    Margin="0,97,0,0" 
+                    Height="50" 
+                    Background="#FFC3073F" 
+                    BorderBrush="#FFC3073F" 
+                    Foreground="#FF1A1A1D" 
+                    BorderThickness="0" 
+                    Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" 
+                    FontSize="24" 
+                    OpacityMask="#FF950740"/>
+            <Button x:Name="btn_Library" 
+                    Content="Library" 
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Top" 
+                    Width="110" 
+                    RenderTransformOrigin="0.08,1.545" 
+                    Margin="0,147,0,0" 
+                    Height="50" 
+                    Background="#FFC3073F" 
+                    BorderBrush="#FFC3073F" 
+                    Foreground="#FF1A1A1D" 
+                    BorderThickness="0" 
+                    Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" 
+                    FontSize="24"/>
+            <Button x:Name="btn_Account" 
+                    Content="Account" 
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Top" 
+                    Width="110" 
+                    RenderTransformOrigin="0.08,1.545" 
+                    Margin="0,197,0,0" 
+                    Height="50" 
+                    Background="#FFC3073F" 
+                    BorderBrush="#FFC3073F" 
+                    Foreground="#FF1A1A1D" 
+                    BorderThickness="0" 
+                    Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" 
+                    FontSize="24"/>
+            <Button x:Name="btn_LogIn_SignUp" 
+                    Content="Log In/&#10;Sign Up" 
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Top" 
+                    Width="110" 
+                    RenderTransformOrigin="0.08,1.545" 
+                    Margin="0,310,0,0" 
+                    Height="100" 
+                    Background="#FFC3073F" 
+                    BorderBrush="#FFC3073F" 
+                    Foreground="#FF1A1A1D" 
+                    BorderThickness="0" 
+                    Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" 
+                    FontSize="24" 
+                    Click="btn_Account_Copy_Click"/>
+
+            <Image x:Name="img_Logo" 
+                   HorizontalAlignment="Left" 
+                   Height="99" 
+                   VerticalAlignment="Top"
+                   Width="110" 
+                   Source="E:\0 Programming\7 Object Oriented Programming\U7-A2\Files\EVaporate\EVaporate\Assets\logo.png"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="60" Margin="110,0,0,0" VerticalAlignment="Top" Width="682" Background="#FFC3073F">
+            <Image HorizontalAlignment="Left" Height="60" Margin="612,0,0,0" VerticalAlignment="Top" Width="60" Source="E:\0 Programming\7 Object Oriented Programming\U7-A2\Files\EVaporate\EVaporate\Assets\magnifying_glass.png"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="360" Margin="110,60,0,0" VerticalAlignment="Top" Width="682" Background="#FF1A1A1D">
+        </Grid>
+
     </Grid>
 </Window>
