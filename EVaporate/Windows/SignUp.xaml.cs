@@ -23,5 +23,15 @@ namespace EVaporate.Pages
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_Submit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
