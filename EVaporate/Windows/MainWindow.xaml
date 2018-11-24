@@ -56,20 +56,32 @@
                     BorderThickness="0" 
                     Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" 
                     FontSize="24"/>
-            <Button x:Name="btn_LogIn_SignUp" 
-                    Content="Log In/&#10;Sign Up" 
+            <Button x:Name="btn_LogIn" 
+                    Content="Log In" 
                     HorizontalAlignment="Left" 
                     VerticalAlignment="Stretch" 
-                    Width="110" 
+                    Width="110"
                     RenderTransformOrigin="0.08,1.545" 
-                    Margin="0,525,0,10" 
+                    Margin="0,478,0,104" 
                     Background="#FFC3073F" 
                     BorderBrush="#FFC3073F" 
                     Foreground="#FF1A1A1D" 
                     BorderThickness="0" 
                     Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" 
-                    FontSize="24" 
-                    Click="btn_Account_Copy_Click"/>
+                    FontSize="24" Click="btn_LogIn_Click" />
+            <Button x:Name="btn_SignUp" 
+                    Content="Sign Up" 
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Stretch" 
+                    Width="110"
+                    RenderTransformOrigin="0.08,1.545" 
+                    Margin="0,543,0,41" 
+                    Background="#FFC3073F" 
+                    BorderBrush="#FFC3073F" 
+                    Foreground="#FF1A1A1D" 
+                    BorderThickness="0" 
+                    Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" 
+                    FontSize="24" Click="btn_SignUp_Click" />
 
             <Image x:Name="img_Logo" 
                    HorizontalAlignment="Left" 
@@ -78,7 +90,7 @@
                    Width="110" 
                    Source="E:\0 Programming\7 Object Oriented Programming\U7-A2\Files\EVaporate\EVaporate\Assets\logo.png"/>
         </Grid>
-        <Grid Background="#FFC3073F" Margin="110,0,0,583" Grid.RowSpan="2">
+        <Grid Background="#FFC3073F" Margin="110,0,0,547" Grid.RowSpan="2">
             <Image Margin="1010,10,10,0" Source="E:\0 Programming\7 Object Oriented Programming\U7-A2\Files\EVaporate\EVaporate\Assets\magnifying_glass.png" Height="40" VerticalAlignment="Top"/>
 
         </Grid>

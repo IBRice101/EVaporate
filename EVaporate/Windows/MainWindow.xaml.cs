@@ -24,9 +24,16 @@ namespace EVaporate.Pages
             InitializeComponent();
         }
 
-        private void btn_Account_Copy_Click(object sender, RoutedEventArgs e)
+        private void btn_LogIn_Click(object sender, RoutedEventArgs e)
         {
+            LogInWindow logInWindow = new LogInWindow();
+            Show();
+        }
 
+        private void btn_SignUp_Click(object sender, RoutedEventArgs e)
+        {
+            SignUpWindow signUpWindow = new SignUpWindow();
+            Show();
         }
     }
 }

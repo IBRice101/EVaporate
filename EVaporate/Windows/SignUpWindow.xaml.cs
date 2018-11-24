@@ -12,26 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace EVaporate.Pages
+namespace EVaporate.Windows
 {
     /// <summary>
-    /// Interaction logic for SignUp.xaml
+    /// Interaction logic for SignUpWindow.xaml
     /// </summary>
-    public partial class SignUp : Window
+    public partial class SignUpWindow : Window
     {
-        public SignUp()
+        public SignUpWindow()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void btn_Submit_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

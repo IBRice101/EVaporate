@@ -12,16 +12,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace EVaporate.Pages
+namespace EVaporate.Windows
 {
     /// <summary>
-    /// Interaction logic for LogIn.xaml
+    /// Interaction logic for LogInWindow.xaml
     /// </summary>
-    public partial class LogIn : Window
+    public partial class LogInWindow : Window
     {
-        public LogIn()
+        public LogInWindow()
         {
-            InitializeComponent();
         }
     }
 }
