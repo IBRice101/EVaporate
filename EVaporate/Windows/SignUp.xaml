@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="SignUp" Height="550" Width="300" ResizeMode="CanMinimize">
     <Grid>
-        <Grid HorizontalAlignment="Left" Height="50" Margin="1,0,0,0" VerticalAlignment="Top" Width="291" Background="#FFC3073F">
+        <Grid HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="294" Background="#FFC3073F">
             <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF1A1A1D" FontSize="20" Text="Sign In" Width="271" Height="35"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="470" Margin="1,50,-1,0" VerticalAlignment="Top" Width="292" Background="#FF1A1A1D">
+        <Grid HorizontalAlignment="Left" Height="471" Margin="0,50,0,0" VerticalAlignment="Top" Width="294" Background="#FF1A1A1D">
             <TextBox x:Name="tb_FirstName" 
                      HorizontalAlignment="Left" 
                      Height="27" 

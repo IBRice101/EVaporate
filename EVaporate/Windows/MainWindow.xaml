@@ -78,7 +78,7 @@
                    Width="110" 
                    Source="E:\0 Programming\7 Object Oriented Programming\U7-A2\Files\EVaporate\EVaporate\Assets\logo.png"/>
         </Grid>
-        <Grid Background="#FFC3073F" Margin="110,0,0,584" Grid.RowSpan="2">
+        <Grid Background="#FFC3073F" Margin="110,0,0,583" Grid.RowSpan="2">
             <Image Margin="1010,10,10,0" Source="E:\0 Programming\7 Object Oriented Programming\U7-A2\Files\EVaporate\EVaporate\Assets\magnifying_glass.png" Height="40" VerticalAlignment="Top"/>
 
         </Grid>
